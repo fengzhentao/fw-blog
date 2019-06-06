@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login</title>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="layui/css/layui.css"  media="all">
+<style>
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	body {
+		background: #f1f1f1;
+		background-size: 100% 100%;
+	}
+	.logo {
+		position: absolute;
+		top: 60px;
+		margin-left: 50px;
+	}
+	.main {
+		width: 400px;
+		margin: 200px auto;
+		border-radius: 4px;
+		box-shadow: 0 0 8px rgba(0,0,0,.1);
+		background-color: #fff;
+		box-sizing: border-box;
+		vertical-align: middle
+	}
+	.in-main {
+		width: 300px;
+		margin: 50px auto;
+		padding: 20px;
+	}
+	.title {
+		text-align: center;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	.title a {
+		font-weight: 700;
+		font-size: 20px;
+		display: inline-block;
+		padding: 0 10px;
+	}
+	.login-a {
+		color: #EA6F5B;
+		border-bottom: 2px solid #EA6F5B;
+	}
+	.content-input {
+		width: 100%;
+		padding: 5px 0;
+		border: 1px solid #DFDFDF;
+	}
+	.input-text {
+		height: 40px;
+		margin: 0 10px;
+		border: none;
+	}
+	.content-check {
+		margin: 20px auto;
+		overflow: hidden;
+	}
+	.box-right {
+		float: right;
+	}
+	.input-submit {
+		width: 100%;
+		height: 50px;
+		border-radius: 25px;
+		background-color: #13F904;
+		margin-bottom: 30px;
+		border: none;
+		cursor: pointer;
+	}
+</style>
+</head>
+
+<body>
+	<div class="login">
+		<div class="logo">
+			<a href="#"><img src="logo-58fd04f6f0de908401aa561cda6a0688.png"/></a>
+		</div>
+		<div class="main">
+			<div class="in-main">
+				<div class="title">
+					<a class="login-a" href="#">登录</a>
+					<b>·</b>
+					<a href="register.html">注册</a>
+				</div>
+				<div class="login-content">
+					<form action="#" method="post">
+						<div class="content-input">
+							<input type="text" class="input-text" placeholder="手机号"/>
+						</div>
+						<div class="content-input">
+							<input type="text" class="input-text" placeholder="密码"/>
+						</div>
+						<div class="content-check">
+							<span class="box-left"><input type="checkbox"/>&nbsp;&nbsp;记住我</span>
+							<span class="box-right">登录遇到问题?</span>
+						</div>
+						<div class="content-submit">
+							<input type="submit" class="input-submit" value="登录"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="layui/layui.js" charset="utf-8"></script>
+<script>
+	
+</script>
+</body>
+</html>
